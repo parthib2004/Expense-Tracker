@@ -151,3 +151,25 @@ input[type='number'] {
   opacity: 1;
 }
 
+/* Responsive styles */
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .inc-exp-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .inc-exp-container > div {
+    border-right: none;
+    border-bottom: 1px solid #dedede;
+    padding: 10px 0;
+  }
+
+  .inc-exp-container > div:last-of-type {
+    border-bottom: none;
+  }
+}
